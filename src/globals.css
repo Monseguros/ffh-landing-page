@@ -3,6 +3,7 @@
 
 @theme {
   --font-inter: "inter", sans;
+  --font-apple-garamond: "apple-garamond", serif;
 }
 
 * {
@@ -50,4 +51,46 @@
 
 .fade-in-right {
   animation: fade-in-right 1s ease-out forwards;
+}
+
+@font-face {
+  font-family: 'apple-garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/apple_garamond/AppleGaramond.ttf');
+}
+
+@font-face {
+  font-family: 'apple-garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/apple_garamond/AppleGaramond-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'apple-garamond';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../public/fonts/apple_garamond/AppleGaramond-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'apple-garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../public/fonts/apple_garamond/AppleGaramond-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'apple-garamond';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../public/fonts/apple_garamond/AppleGaramond-Light.ttf');
+}
+
+@font-face {
+  font-family: 'apple-garamond';
+  font-style: italic;
+  font-weight: 200;
+  src: url('../public/fonts/apple_garamond/AppleGaramond-LightItalic.ttf');
 }

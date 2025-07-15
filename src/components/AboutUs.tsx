@@ -38,8 +38,8 @@ export const AboutUs: React.FC = () => {
       id="sobre-nos"
       className="bg-[#F7F4EF] text-neutral-800 px-6 py-24 flex items-center justify-center"
     >
-      <div className="max-w-4xl w-full text-center space-y-12">
-        <h1 className="about-title opacity-0 transition-all duration-700 ease-out text-4xl md:text-5xl font-serif font-semibold tracking-wide">
+      <div className="max-w-6xl w-full text-center space-y-12">
+        <h1 className="about-title opacity-0 transition-all duration-700 ease-out text-4xl md:text-5xl font-apple-garamond font-semibold tracking-wide">
           Sobre a FFH
         </h1>
 

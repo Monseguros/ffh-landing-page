@@ -20,17 +20,19 @@ export const CustomHeader: React.FC = () => {
           : "bg-gradient-to-b from-white to-transparent"
       }`}
     >
-      <div>
-        <span className="text-4xl font-serif">FFH</span>
-      </div>
-      <div>
-        {/* <a
+      <div className="flex justify-between max-w-6xl w-full mx-auto">
+        <div>
+          <img src="/images/logo/green.png" alt="" className="w-30" />
+        </div>
+        <div>
+          {/* <a
           className="shadow-md hover:shadow-lg px-8 py-2 rounded-lg transition-all duration-300 hover:bg-green-500 text-white font-light text-base font-inter bg-green-950"
           href="https://portalparceiro.monseguros.com.br/sign-in"
           target="_blank"
         >
           Portal do Parceiro
         </a> */}
+        </div>
       </div>
     </header>
   );

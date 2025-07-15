@@ -12,11 +12,12 @@ export const CustomFooter: React.FC = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 border-b border-white/20 pb-10">
         {/* Coluna 1 - Identidade */}
         <div className="space-y-4">
-          <h1 className="text-4xl font-serif font-semibold tracking-wide">
+          <img src="/images/logo/white.png" alt="" className="w-1/2" />
+          {/* <h1 className="text-4xl font-apple-garamond font-semibold tracking-wide">
             FFH
-          </h1>
+          </h1> */}
           <p className="text-sm text-white/70">
-            For Family Holding — um ecossistema de cuidado para todas as fases
+            For Family Holding. Um ecossistema de cuidado para todas as fases
             da vida.
           </p>
         </div>
@@ -29,16 +30,16 @@ export const CustomFooter: React.FC = () => {
               <a
                 href="https://web.whatsapp.com"
                 target="_blank"
-                className="flex items-center gap-2 hover:text-white/80 transition-colors"
+                className="flex w-fit items-center gap-2 hover:text-white/80 transition-colors"
               >
-                <WhatsappLogoIcon size={20} weight="fill" /> Whatsapp
+                <WhatsappLogoIcon size={20} weight="fill" /> WhatsApp
               </a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com"
                 target="_blank"
-                className="flex items-center gap-2 hover:text-white/80 transition-colors"
+                className="flex w-fit items-center gap-2 hover:text-white/80 transition-colors"
               >
                 <InstagramLogoIcon size={20} weight="fill" /> Instagram
               </a>
@@ -47,15 +48,15 @@ export const CustomFooter: React.FC = () => {
               <a
                 href="https://www.linkedin.com"
                 target="_blank"
-                className="flex items-center gap-2 hover:text-white/80 transition-colors"
+                className="flex w-fit items-center gap-2 hover:text-white/80 transition-colors"
               >
-                <LinkedinLogoIcon size={20} weight="fill" /> Linkedin
+                <LinkedinLogoIcon size={20} weight="fill" /> LinkedIn
               </a>
             </li>
             <li>
               <a
                 href="mailto:contato@ffh.com.br"
-                className="flex items-center gap-2 hover:text-white/80 transition-colors"
+                className="flex w-fit items-center gap-2 hover:text-white/80 transition-colors"
               >
                 <MailboxIcon size={20} weight="fill" /> E-mail
               </a>
