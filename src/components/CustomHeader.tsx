@@ -30,7 +30,7 @@ export const CustomHeader: React.FC = () => {
           href="https://portalparceiro.monseguros.com.br/sign-in"
           target="_blank"
         >
-          Portal do Parceiro
+          Trabalhe conosco
         </a> */}
         </div>
       </div>

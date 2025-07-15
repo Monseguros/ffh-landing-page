@@ -33,9 +33,9 @@ export const Banner: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="flex flex-col md:flex-row items-center w-full justify-between relative h-[55dvh] md:h-[30dvh] lg:h-[70dvh] mt-20 md:mt-30 overflow-hidden"
+      className="flex flex-col md:flex-row items-center w-full justify-between relative h-[55dvh] md:h-[30dvh] lg:h-[70dvh] mt-20 md:mt-24 overflow-hidden"
     >
-      <div className="hidden md:block absolute w-full bg-gradient-to-b z-10 md:bg-gradient-to-r from-[#fffffffb] from-50% lg:from-30%  to-transparent h-full"></div>
+      <div className="hidden md:block absolute w-full bg-gradient-to-b z-10 md:bg-gradient-to-r from-[#fffffffb] from-50% lg:from-0% to-35%  to-transparent h-full"></div>
 
       <div className="max-w-6xl pt-8 md:pt-0 h-full mx-auto w-full">
         <div className="opacity-0 transition-all duration-1000 px-8 lg:px-0 md:h-full ease-out grid items-center z-10 fade-in-left absolute">
