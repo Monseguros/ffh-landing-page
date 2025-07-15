@@ -68,7 +68,7 @@ export const BusinessPartner: React.FC = () => {
     >
       <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="business-text opacity-0  transition-all duration-700 ease-out text-center md:text-left space-y-6">
-          <h1 className="text-4xl md:text-5xl font-serif font-normal tracking-wide text-neutral-900">
+          <h1 className="text-4xl lg:text-5xl font-serif font-normal tracking-wide text-neutral-900">
             Empresas do Grupo
           </h1>
           <p className="max-w-2xl text-lg font-light text-neutral-600">
@@ -89,7 +89,7 @@ export const BusinessPartner: React.FC = () => {
               <img
                 src={data.logoUrl}
                 alt={`Logo da empresa ${data.nome}`}
-                className="max-h-30 object-contain"
+                className="w-full lg:max-h-30 object-contain"
               />
             </a>
           ))}

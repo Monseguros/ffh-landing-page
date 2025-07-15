@@ -33,9 +33,9 @@ export const Banner: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="flex flex-col md:flex-row items-center w-full justify-between relative h-[70dvh] mt-20 md:mt-30 overflow-hidden"
+      className="flex flex-col md:flex-row items-center w-full justify-between relative h-[55dvh] md:h-[30dvh] lg:h-[70dvh] mt-20 md:mt-30 overflow-hidden"
     >
-      <div className="absolute w-1/2 bg-gradient-to-b z-10 md:bg-gradient-to-r from-[#fffffffb]  to-transparent h-full"></div>
+      <div className="hidden md:block absolute w-full bg-gradient-to-b z-10 md:bg-gradient-to-r from-[#fffffffb] from-50% lg:from-30%  to-transparent h-full"></div>
 
       <div className="max-w-6xl pt-8 md:pt-0 h-full mx-auto w-full">
         <div className="opacity-0 transition-all duration-1000 px-8 lg:px-0 md:h-full ease-out grid items-center z-10 fade-in-left absolute">
@@ -59,11 +59,16 @@ export const Banner: React.FC = () => {
         <div className="opacity-0 transition-all duration-1000 ease-out w-full absolute right-0 md:w-3/4 h-full fade-in-right">
           <div className="relative w-full h-full">
             <img
-              className="w-full h-full object-cover object-left"
-              src="/images/sections/FFH.png"
+              className="hidden lg:block w-full h-full object-cover object-left"
+              src="/images/sections/FFH-desktop.png"
               alt=""
             />
-            <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-[#ffffff]"></div>
+            <img
+              className="lg:hidden block w-full h-full object-contain md:object-cover object-bottom md:object-center  pb-8"
+              src="/images/sections/FFH-mobile.png"
+              alt=""
+            />
+            <div className="hidden lg:block absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-l from-transparent via-transparent to-[#ffffff]"></div>
           </div>
         </div>
       </div>
