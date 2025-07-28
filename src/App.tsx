@@ -1,11 +1,11 @@
 import "aos/dist/aos.css";
-import { Home } from "./pages/Home";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
     <>
-      <Home /> 
-      {/* <NotFound /> */}
+      {/* <Home />  */}
+      <NotFound />
     </> 
   );
 }
